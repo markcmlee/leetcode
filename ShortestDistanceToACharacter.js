@@ -2,10 +2,9 @@
 
 const shortestToChar = (S, C) => {
   const result = [];
-  const split = S.split("");
-  for (let i = 0; i < split.length; i++) {
-    for (let j = 0; j < split.length; j++) {
-      if (split[i + j] === C || split[i - j] === C) {
+  for (let i = 0; i < S.length; i++) {
+    for (let j = 0; j < S.length; j++) {
+      if (S[i + j] === C || S[i - j] === C) {
         result.push(j);
         break;
       }
