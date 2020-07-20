@@ -6,7 +6,7 @@ const minTimeToVisitAllPoints = (points) => {
   for (let i = 1; i < points.length; i++) {
     const x = Math.abs(points[i - 1][0] - points[i][0]);
     const y = Math.abs(points[i - 1][1] - points[i][1]);
-    time += Math.max(x, y);
+    counter += Math.max(x, y);
   }
   return counter;
 };
