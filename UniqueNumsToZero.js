@@ -11,5 +11,5 @@ const sumZero = (n) => {
 };
 
 console.log(sumZero(5)); //any array that adds up to 5
-// console.log(sumZero(3)); //[-1, 0, 1]
-// console.log(sumZero(1)); //[0]
+console.log(sumZero(3)); //[-1, 0, 1]
+console.log(sumZero(1)); //[0]
